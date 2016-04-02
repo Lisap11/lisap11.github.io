@@ -1,0 +1,137 @@
+
+
+
+.about{
+	margin: 100px;
+	font-family: centurygothic;
+}
+h2{
+	font-size: 50px;
+	color: lightgray;
+	text-align: center;
+	font-family: centurygothic;
+}
+
+
+section{
+	display: block;
+}
+.tourdates{
+	display: block;
+	height: 650px;
+}
+
+.tour{
+	margin: 50px;
+	font-family: centurygothic;
+	/*height: 300px;*/
+}
+#usa{
+/*	width: 50%;*/
+	background-color: lightgray;
+	padding: 40px;
+	/*height: 300px;*/
+
+}
+#international{
+/*	width: 50%;*/
+	background-color: lightgray;
+	padding: 40px;
+	/*height: 300px;*/
+}
+
+button{
+	padding: 8px;
+	border-radius: 5px;
+	margin: 0 auto;
+	display: block;
+
+
+}
+#tour1{
+	text-align: center;
+
+}
+
+
+#dates{
+	text-align: center;
+}
+
+
+.relatedartists{
+	height: 1000px;
+	
+}
+#jb{
+	cursor: pointer;
+	cursor: hand;
+}
+#dguetta{
+	cursor: pointer;
+	cursor: hand;
+}
+#kygo{
+	cursor: pointer;
+	cursor: hand;
+}
+
+.contactinfo{
+	height: 450px;
+	display: block;
+}
+
+label{
+	display: block;
+}
+form{
+	text-align: center;
+}
+input{
+	height: 50px;
+	width: 300px;
+}
+.submitbutton{
+	margin-top: 50px;
+}
+
+footer{
+	text-align: center;
+	padding: 20px;
+
+}
+footer ul a{
+	padding: 10px;
+}
+
+
+
+
+@media screen and (min-width: 768px){
+  #usa{
+    display: block;
+    float: left;
+    
+  }
+   #international{
+    display: block;
+    float: right;
+
+  }
+
+  a.back-to-top {
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 999;
+    bottom: 20px;
+    display: none;
+    position: fixed;
+    border-radius: 30px;
+    text-indent: -9999px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    background: rgb(0,0,0) url("../images/uparrow.png") no-repeat center 43%;
+
+}
+
